@@ -1,0 +1,5 @@
+# Example terraform.tfvars file for advanced example
+# Copy this file to terraform.tfvars and update the values
+
+# SSH public key content (paste your public key here)
+ssh_public_key = "ssh-rsa AAAAB3NzaC1yc2EAAAA... your-ssh-public-key-content-here"
