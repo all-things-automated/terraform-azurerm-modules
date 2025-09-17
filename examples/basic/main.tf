@@ -7,7 +7,7 @@ module "azure_vm" {
   vm_name            = "vm-example-basic"
   vm_size            = "Standard_B2s"
   admin_username     = "azureuser"
-  admin_password     = "P@ssw0rd123!" # In production, use Azure Key Vault or other secure methods
+  admin_password     = "" 
 
   tags = {
     Environment = "Development"
